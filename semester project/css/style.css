@@ -1,0 +1,176 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.8;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #ffe4e1;
+    color: #333;
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 2px solid #ffb6c1;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff6f8b; /* Soft Pink */
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+    background-color: #f8f1f1;
+    margin: 2rem auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #ff6f8b;
+    font-size: 1.8rem;
+}
+
+main form label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+main form input,
+main form select,
+main form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+main form button {
+    background-color: #ffb6c1;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+main form button:hover {
+    background-color: #ff6f8b;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table thead {
+    background-color: #ffb6c1;
+    color: #fff;
+    font-weight: 600;
+}
+
+table th,
+table td {
+    padding: 0.8rem;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #ffe4e1;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #ffe4e1;
+    color: #333;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 2px solid #ffb6c1;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+/* Normal links */
+nav ul li a {
+    text-decoration: none;
+    color: #ff6f8b; /* Soft pink */
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hovered links */
+nav ul li a:hover {
+    color: #333; /* Dark gray for hover */
+    text-decoration: underline;
+}
+
+/* Visited links */
+nav ul li a:visited {
+    color: #ff6f8b; /* Same as unvisited links */
+}
+img.todo-image {
+    max-width: 30%; /* Adjust to desired percentage */
+    height: auto; /* Maintains aspect ratio */
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+/* Custom image size for specific images */
+img.diary-image {
+    max-width: 20%; /* Adjust the value to make the image smaller */
+    height: auto;   /* Keeps the aspect ratio intact */
+    display: block; /* Makes the image block-level for centering */
+    margin: 0 auto; /* Centers the image horizontally */
+}
